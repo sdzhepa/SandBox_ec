@@ -1,0 +1,19 @@
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 1
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 1
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - Priority: P0
+  - Priority: P1
+  - Priority: P2
+# Label to use when marking an issue as stale
+staleLabel: stale issue
+# Comment to post when marking an issue as stale. Set to `false` to disable
+markComment: >
+  This issue has been automatically marked as stale because it has not had
+  recent activity for XXX days. It will be closed if no further activity occurs during next 14 days. Thank you
+  for your contributions.
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment: >
+Issue has been closed due to no activities.
