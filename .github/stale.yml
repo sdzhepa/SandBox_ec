@@ -19,6 +19,11 @@ exemptLabels:
   - "Progress: dev in progress"
   - "Progress: PR in progress"
   - "Progress: done"
+  - "B2B: GraphQL"   
+  - "Progress: PR Created"
+  - "PAP"
+  - "Project: Login as Customer"
+  - "Project: GraphQL"
 
 # Set to true to ignore issues in a project (defaults to false)
 exemptProjects: false
